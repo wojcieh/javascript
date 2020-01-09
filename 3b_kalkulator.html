@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+<body>
+
+<h1>Kalkulator</h1>
+<p id="demo">Dodawania</p>
+<form>
+  a:<br>
+  <input id="a" type="text" name="a" value="0">
+  <br>
+  b:<br>
+  <input id="b" type="text" name="b" value="0">
+  <br><br>
+<button type="button" onclick="myFunction(8, 6)">Naciśnij</button>
+</form> 
+<p>Wynik:<span id="wynik"></span></p>
+<script>
+function myFunction() {
+	var a,b,c;
+	a = parseInt(document.getElementById("a").value);
+	b = parseInt(document.getElementById("b").value);
+	c = a+b;
+	document.getElementById("wynik").innerHTML = c;
+ return 
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
